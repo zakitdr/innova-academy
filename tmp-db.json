@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": "demo-user",
+      "email": "demo@innova.ac",
+      "isVIP": true,
+      "vipFreeUsed": 1
+    }
+  ],
+  "courses": [
+    {
+      "id": "c1",
+      "slug": "javascript-foundations",
+      "title": "JavaScript Foundations",
+      "description": "Start coding modern JavaScript.",
+      "price": 9900,
+      "seatLimit": 25,
+      "seatsTaken": 13
+    },
+    {
+      "id": "c2",
+      "slug": "react-advanced",
+      "title": "React Advanced",
+      "description": "Hooks, patterns, performance.",
+      "price": 12900,
+      "seatLimit": 20,
+      "seatsTaken": 19
+    },
+    {
+      "id": "c3",
+      "slug": "ui-ux-design",
+      "title": "UI/UX Design",
+      "description": "Design delightful interfaces.",
+      "price": 10900,
+      "seatLimit": 18,
+      "seatsTaken": 5
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "e1759106711118",
+      "userId": "demo-user",
+      "courseId": "c1",
+      "status": "enrolled",
+      "isFree": true
+    }
+  ],
+  "payments": []
+}
